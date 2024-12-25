@@ -45,7 +45,7 @@ function check(number){
         if(score > 0){
             score -=10;
             document.querySelector("#score").textContent=score;
-            alert("andhi hai kya ?");
+            alert("wrong bubble clicked!");
         }
     }
   }
